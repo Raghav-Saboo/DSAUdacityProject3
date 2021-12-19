@@ -6,10 +6,14 @@ Autocomplete with Tries
     - The time complexity of inserting and searching is equal to the length of
       the word. If there are n words with each having length l then the total
       time complexity would be O(n * l).
+    - Method - Trie.init
+        - Time Complexity - O(1)
     - Method - Trie.insert
         - Time Complexity - O(l) where l is the length of the word
     - Method - Trie.find
         - Time Complexity - O(l) where l is the length of the word
+    - Method - TrieNode.init
+        - Time Complexity - O(1)
     - Method - TrieNode.insert
         - Time Complexity - O(1)
     - Method - TrieNode.suffixes
@@ -22,7 +26,9 @@ Autocomplete with Tries
     - Method - Trie.insert
         - Space Complexity - O(l) where l is the length of the word
     - Method - Trie.find
-        - Time Complexity - O(l) where l is the length of the word
+        - Space Complexity - O(l) where l is the length of the word
+    - Method - TrieNode.init
+        - Space Complexity - O(1)
     - Method - TrieNode.insert
         - Space Complexity - O(1)
     - Method - TrieNode.suffixes
