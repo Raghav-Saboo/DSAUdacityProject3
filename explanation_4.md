@@ -1,10 +1,8 @@
-Active Directory
+Dutch National Flag Problem
 
 - Design
-    - A tree is used to represent all the groups and users in a group.
+    - Use a single traversal to sort the array.
 - Time Complexity
-    - O(n) since in the worst case we will traverse the entire tree for
-      searching if the user is present where n is the number of nodes in the
-      tree.
+    - O(n)
 - Space Complexity
-    - O(n) if there are total n nodes in the tree.
+    - O(1)

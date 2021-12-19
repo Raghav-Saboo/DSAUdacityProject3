@@ -1,10 +1,8 @@
-File Recursion
+Search in a Rotated Sorted Array
 
 - Design
-    - Recursion is used to find all the subdirectory and files within a given
-      directory.
+    - Binary search is used to find the element in rotated array.
 - Time Complexity
-    - O(n) if there are total n files and subdirectory in a given directory.
+    - O(log(n)) where n is the number of elements in the array.
 - Space Complexity
-    - O(n) if there are n files which match the suffix since we store the paths
-      of all those n files.
+    - O(1)

@@ -1,8 +1,8 @@
-Blockchain
+Autocomplete with Tries
 
 - Design
-    - A linked list is used to chain all the blocks together.
+    - We implement all the basic methods of a Trie.
 - Time Complexity
-    - O(n) if there are n blocks.
+    - O(n)
 - Space Complexity
-    - O(n) if there are n blocks.
+    - O(n)

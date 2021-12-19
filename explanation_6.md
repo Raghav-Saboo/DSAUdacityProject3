@@ -1,9 +1,8 @@
-Union and Intersection of Two Linked Lists
+Max and Min in an Unsorted Array
 
 - Design
-    - We convert the linked list to set and then use the union and set
-      intersection methods.
+    - We iterate over the array to find the min and max.
 - Time Complexity
-    - O(n) where n is the total number of nodes in both the linked list.
+    - O(n)
 - Space Complexity
-    - O(n) where n is the total number of nodes in both the linked list.
+    - O(1)
